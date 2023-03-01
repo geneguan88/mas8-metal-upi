@@ -1,0 +1,27 @@
+$TTL    604800
+@       IN      SOA     ocp-svc.maximowork.com. contact.maximowork.com (
+                  1     ; Serial
+             604800     ; Refresh
+              86400     ; Retry
+            2419200     ; Expire
+             604800     ; Minimum
+)
+
+  IN      NS      ocp-svc.maximowork.com.
+
+1      IN    PTR    ocp-svc.maximowork.com.
+1      IN    PTR    api.lab.maximowork.com.
+1      IN    PTR    api-int.lab.maximowork.com.
+;
+200    IN    PTR    ocp-bootstrap.lab.maximowork.com.
+;
+201    IN    PTR    ocp-cp-1.lab.maximowork.com.
+202    IN    PTR    ocp-cp-2.lab.maximowork.com.
+203    IN    PTR    ocp-cp-3.lab.maximowork.com.
+;
+211    IN    PTR    ocp-w-1.lab.maximowork.com.
+212    IN    PTR    ocp-w-2.lab.maximowork.com.
+213    IN    PTR    ocp-w-3.lab.maximowork.com.
+;
+220    IN    PTR    DESKTOP-BDF3JQF.maximowork.com.
+;
